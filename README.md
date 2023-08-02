@@ -1,6 +1,5 @@
 # LangSmith-Demo
 
-About
 🔨 Companion repo to "The Art of LangSmithing" by Ricardo Ledan
 
 ## Commands
