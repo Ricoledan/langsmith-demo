@@ -12,7 +12,7 @@ os.getenv('LANGCHAIN_PROJECT')
 os.getenv('OPENAI_API_KEY')
 
 
-def chat():
+def chat(event, context):
     llm = ChatOpenAI()
     body = {"bot": llm.predict("Tell me about NYC Drill music")}
 
