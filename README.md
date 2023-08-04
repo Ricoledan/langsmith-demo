@@ -9,16 +9,16 @@
 
 ## Commands
 
+Activate your local Python virtual environment (pyenv)
+
+```bash
+pyenv activate ENV_NAME
+```
+
 Install Python dependencies 
 
 ```bash
 pip install -r requirements.txt
-```
-
-Activate your local Python virtual environment (I personally use pyenv)
-
-```bash
-pyenv activate ENV_NAME
 ```
 
 Run the serverless function locally
