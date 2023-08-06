@@ -21,8 +21,8 @@ Install Python dependencies
 pip install -r requirements.txt
 ```
 
-Run the serverless function locally
+Run the serverless function locally with a sample user input
 
 ```bash
-sls invoke local --function chat
+sls invoke local --function chat --path user_input_event.json
 ```

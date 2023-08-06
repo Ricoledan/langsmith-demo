@@ -13,7 +13,9 @@ os.getenv('OPENAI_API_KEY')
 
 
 def chat(event, context):
+    user_input = json.loads(event['body'])['user_input']
+
     llm = ChatOpenAI()
-    body = {"bot": llm.predict("Tell me about NYC Drill music")}
+    body = {"bot": llm.predict(user_input)}
 
     return {"statusCode": 200, "body": json.dumps(body)}
