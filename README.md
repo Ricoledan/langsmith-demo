@@ -26,3 +26,9 @@ Run the serverless function locally with a sample user input
 ```bash
 sls invoke local --function chat --path user_input_event.json
 ```
+
+Run when testing the model against a dataset we set in langSmith
+
+```bash
+sls invoke local --function eval
+```

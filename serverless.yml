@@ -9,3 +9,5 @@ provider:
 functions:
   chat:
     handler: handler.chat
+  eval:
+    handler: handler.eval
