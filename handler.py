@@ -28,7 +28,10 @@ def eval(event, context):
     client = Client()
     eval_config = RunEvalConfig(
         evaluators=[
-            "qa"
+            RunEvalConfig.Criteria("conciseness"),
+            RunEvalConfig.Criteria("relevance"),
+            RunEvalConfig.Criteria("coherence"),
+            RunEvalConfig.Criteria("helpfulness")
         ],
     )
     chain_results = run_on_dataset(
