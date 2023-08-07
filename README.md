@@ -1,10 +1,12 @@
 # LangSmith-Demo
 
-🔨 Companion repo to "The Art of LangSmithing" by Ricardo Ledan
+🔨 Companion repository to [The Art of LangSmithing](https://medium.com/@ricoledan/the-art-of-langsmithing-42dcd191a220)
+by Ricardo Ledan, A guide to testing, evaluating, and monitoring LLM
+calls for production using LangSmith.
 
 ## Tools
 
-* [Pyenv](https://github.com/pyenv/pyenv) 
+* [Pyenv](https://github.com/pyenv/pyenv)
 * [Serverless Framework](https://www.serverless.com/)
 
 ## Commands
@@ -15,7 +17,7 @@ Activate your local Python virtual environment (pyenv)
 pyenv activate ENV_NAME
 ```
 
-Install Python dependencies 
+Install Python dependencies
 
 ```bash
 pip install -r requirements.txt
